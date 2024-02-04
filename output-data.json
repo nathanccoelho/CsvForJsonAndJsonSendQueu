@@ -1,0 +1,6 @@
+[
+    {"numTransaction":"7","document":"09326655407","name":"Bruce Wayne","value":"87.28","dateTransaction":"2023-12-28T06:18:12Z","age":"42","idTransaction":"686e9b31-caeb-4908-95d5-931b50a8df9c"},
+    {"numTransaction":"3","document":"82982060095","name":"Hal Jordan","value":"974.80","dateTransaction":"2023-06-15T04:00:43Z","age":"38","idTransaction":"32d527d4-485a-47ee-a9d5-e95f6b40ede7"},
+    {"numTransaction":"7","document":"99200839899","name":"Ethan Hunt","value":"53.39","dateTransaction":"2023-11-05T07:53:08Z","age":"42","idTransaction":"1521e422-297d-4fa4-8252-1e7bdf3edeb2"}
+    
+]
