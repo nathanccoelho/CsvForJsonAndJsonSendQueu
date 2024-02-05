@@ -11,11 +11,11 @@ public class JsonDto implements Serializable  {
 	 */
 	private static final long serialVersionUID = 1L;
 	public UUID idTransaction;
-	public LocalDateTime dateTransaction;
+	public LocalDateTime transactionDate;
 	public String document;
 	public String name;
 	public String age;
-	public String value;
-	public String numTransaction;
+	public String amount;
+	public String installmentNumber;
 	
 }

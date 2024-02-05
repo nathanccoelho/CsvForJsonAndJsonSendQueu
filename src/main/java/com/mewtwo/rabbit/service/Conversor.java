@@ -26,12 +26,12 @@ public class Conversor {
 
                 JSONObject json = new JSONObject();
                 json.put("idTransaction", data[0]);
-                json.put("dateTransaction", data[1]);
+                json.put("transactionDate", data[1]);
                 json.put("document", data[2]);
                 json.put("name", data[3]);
                 json.put("age", data[4]);
-                json.put("value", data[5]);
-                json.put("numTransaction", data[6]);
+                json.put("amount", data[5]);
+                json.put("installmentNumber", data[6]);
 
                 jsonArray.put(json); // Adiciona o objeto JSON ao array JSON
             }

@@ -53,9 +53,9 @@ public class RabbitMQConection {
     public void enviarObjetosParaFila() {
         try {
             List<JsonDto> jsonDtoList = readJsonFromFile("output.json");
+            System.out.println("Enviando objetos Json para a fila");
             for (JsonDto jsonDto : jsonDtoList) {
                 // Converter JsonDto para JSON e enviar para a fila
-            	System.out.println("Enviando objetos Json para a fila");
                 String jsonStr = objectMapper.writeValueAsString(jsonDto);
                 rabbitMqService.enviaMensagem(JsonConstante.FILA_JSON, jsonStr);
             }
